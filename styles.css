@@ -24,8 +24,6 @@ header ul {
   justify-content: space-between;
 }
 
-header h1 {
-  font-family: 'PT Serif', serif;
-
-  font-size: 3rem;
+header img {
+  width: 360px;
 }
