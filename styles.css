@@ -41,6 +41,22 @@ ul,
   border-radius: 2px;
 }
 
+.header-newsletter h3 {
+  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.7rem;
+  color: #3ab3e5;
+}
+
+.header-newsletter h4 {
+  font-family: 'PT Serif', Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  color: #999999;
+}
+
 .nav {
   font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
   font-size: 1.8rem;
