@@ -12,12 +12,12 @@ html {
 /* Header & Nav */
 
 ul,
-nav {
+.nav {
   display: flex;
 }
 
 .header {
-  padding: 2rem 0;
+  padding: 2.2rem 0;
   width: 1100px;
   margin: 0 auto;
 }
@@ -30,18 +30,39 @@ nav {
   width: 360px;
 }
 
+.header button {
+  padding: 0.3rem 2.5rem;
+  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #3ab3e5;
+  border: none;
+  border-radius: 2px;
+}
+
 .nav {
   font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 2.1rem;
   width: 1100px;
+  justify-content: space-between;
   margin: 0 auto;
   position: sticky;
   top: 0;
+  padding: 1rem 0;
 }
 .nav li {
-  margin-right: 1rem;
+  margin-right: 1.8rem;
+}
+
+.nav li:last-of-type {
+  margin-right: 0;
+}
+.nav-user li {
+  display: flex;
+  align-items: center;
 }
 
 /* Main content */
