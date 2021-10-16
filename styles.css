@@ -100,9 +100,32 @@ ul,
   font-weight: 700;
   line-height: 5.1rem;
   color: #000000;
+  padding-top: 2rem;
 }
 
-.article img {
+.article-social {
+  height: 4.7rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.article-author {
+  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #4d4d4d;
+  margin-bottom: 0.8rem;
+}
+
+.article-author-location {
+  font-weight: 700;
+}
+
+.article-author-name {
+  font-weight: 700;
+  color: #00b3e5;
+}
+
+.article-main-image {
   width: 100%;
 }
 
