@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+body {
+  font-family: 'PT Serif', Georgia, serif;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -92,6 +96,7 @@ ul,
 
 .article {
   width: 70%;
+  display: inline-block;
 }
 
 .article h1 {
@@ -160,8 +165,36 @@ ul,
 }
 .article-related--blue-text {
   color: #3ab3e5;
+  text-decoration: none;
+}
+
+.article-references {
+  font-size: 1.6rem;
+}
+
+.article-references span {
+  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-weight: 700;
+}
+
+.article-sign-up {
+  padding-top: 1rem;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+}
+
+.article-link {
+  color: #00b3e5;
+  text-decoration: none;
 }
 
 /* Sidebar */
+.sidebar {
+  display: inline-block;
+  width: auto;
+  vertical-align: top;
+  position: sticky;
+  top: 4rem;
+}
 
 /* Footer */
