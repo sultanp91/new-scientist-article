@@ -43,6 +43,15 @@ ul,
   background-color: #3ab3e5;
   border: none;
   border-radius: 2px;
+  cursor: pointer;
+}
+
+.header-newsletter {
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: #288eb7;
 }
 
 .header-newsletter h3 {
@@ -52,6 +61,9 @@ ul,
   line-height: 1.7rem;
   color: #3ab3e5;
 }
+.header-newsletter h3:hover {
+  color: #288eb7;
+}
 
 .header-newsletter h4 {
   font-family: 'PT Serif', Georgia, serif;
@@ -59,6 +71,9 @@ ul,
   font-weight: 400;
   line-height: 1.9rem;
   color: #999999;
+}
+.header-newsletter h4:hover {
+  text-decoration: underline;
 }
 
 .nav {
@@ -71,11 +86,15 @@ ul,
   margin: 0 auto;
   position: sticky;
   top: 0;
-  padding: 1rem 0;
   background-color: #fff;
 }
 .nav li {
   margin-right: 1.8rem;
+  padding: 1rem 0;
+}
+
+.nav li:hover {
+  cursor: pointer;
 }
 
 .nav li:last-of-type {
@@ -86,6 +105,34 @@ ul,
   align-items: center;
 }
 
+.nav-links--space {
+  color: #3ab3e5;
+  border-bottom: solid 5px black;
+}
+
+.nav-links-black {
+  transition: border ease 0.3s;
+}
+
+.nav-links-black:hover {
+  color: #3ab3e5;
+  border-bottom: solid 5px black;
+}
+
+.nav-links-blue {
+  color: #3ab3e5;
+  transition: border ease 0.3s;
+}
+.nav-links-blue:hover {
+  border-bottom: solid 5px black;
+}
+
+.nav-user li:hover {
+  color: #999;
+}
+.nav-user-text:hover {
+  text-decoration: underline;
+}
 /* Main content */
 
 .main {
