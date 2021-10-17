@@ -84,10 +84,13 @@ ul,
   width: 1100px;
   justify-content: space-between;
   margin: 0 auto;
+}
+
+.nav-container {
   position: sticky;
   top: 0;
-  background-color: #fff;
   z-index: 100;
+  background-color: #fff;
 }
 .nav li {
   margin-right: 1.8rem;
@@ -262,6 +265,9 @@ ul,
   padding: 1rem 1.4rem;
   margin-right: 0.5rem;
 }
+.sidebar-sections li:hover {
+  cursor: pointer;
+}
 
 .sidebar-link {
   margin-top: 0.5rem;
@@ -382,4 +388,11 @@ ul,
 .footer-container {
   width: 110rem;
   margin: 0 auto;
+}
+
+.footer-sign-up {
+  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-size: 2.4rem;
+  line-height: 2.7rem;
+  font-weight: 700;
 }
