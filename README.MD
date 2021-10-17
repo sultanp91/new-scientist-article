@@ -1,4 +1,4 @@
-## Project: Mint Sign up form
+## Project: NewScientist article page
 
 Live demo:
 
