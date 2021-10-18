@@ -1,6 +1,6 @@
 ## Project: NewScientist article page
 
-Live demo:
+Live demo: https://sultanp91.github.io/new-scientist-article/
 
 Preview:
 
