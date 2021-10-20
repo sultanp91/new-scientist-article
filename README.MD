@@ -2,6 +2,6 @@
 
 Live demo: https://sultanp91.github.io/new-scientist-article/
 
-Preview:
+Preview: ![enter image description here](https://github.com/sultanp91/new-scientist-article/blob/main/images/newscientist-page.jpg?raw=true)
 
-The project is taken from The Odin Project - the goal is to practice CSS layout techniques by recreating this [New Scientist article page](https://www.newscientist.com/article/2286218-ancient-lake-in-marss-gale-crater-may-have-actually-been-a-small-pond/). It is not required to recreate any of the dynamic functionality - only to recreate the look of the page.
+The project is taken from The Odin Project - the goal is to practice CSS layout techniques such as grid and flexbox by recreating this [New Scientist article page](https://www.newscientist.com/article/2286218-ancient-lake-in-marss-gale-crater-may-have-actually-been-a-small-pond/). It is not required to recreate any of the dynamic functionality - only to recreate the look of the page. The page is also not required to be mobile responsive and is best viewed on a desktop/laptop screen.
