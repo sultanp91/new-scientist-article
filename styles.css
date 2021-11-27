@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'PT Serif', Georgia, serif;
+  font-family: "PT Serif", Georgia, serif;
 }
 
 html {
@@ -22,7 +22,8 @@ ul,
 
 .header {
   padding: 2rem 0 1rem;
-  width: 110rem;
+  width: 95%;
+  max-width: 110rem;
   margin: 0 auto;
 }
 
@@ -31,12 +32,15 @@ ul,
 }
 
 .header img {
+  display: block;
+  margin: 0 auto 1rem;
+  width: 70%;
   max-width: 360px;
 }
 
 .header button {
   padding: 0.3rem 2.5rem;
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
   color: #fff;
@@ -55,7 +59,7 @@ ul,
 }
 
 .header-newsletter h3 {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.7rem;
@@ -66,7 +70,7 @@ ul,
 }
 
 .header-newsletter h4 {
-  font-family: 'PT Serif', Georgia, serif;
+  font-family: "PT Serif", Georgia, serif;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.9rem;
@@ -77,7 +81,7 @@ ul,
 }
 
 .nav {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 2.1rem;
@@ -141,14 +145,15 @@ ul,
 /* Main content */
 
 .main {
-  width: 1100px;
+  width: 95%;
+  max-width: 110rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 70% 1fr;
 }
 
 .article h1 {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 5rem;
   font-weight: 700;
   line-height: 5.1rem;
@@ -162,7 +167,7 @@ ul,
 }
 
 .article-author {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 1.6rem;
   line-height: 3rem;
   color: #4d4d4d;
@@ -183,7 +188,7 @@ ul,
 }
 
 .figcaption {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: #4d4d4d;
@@ -195,7 +200,7 @@ ul,
 }
 
 .article-content {
-  font-family: 'PT Serif', Georgia, serif;
+  font-family: "PT Serif", Georgia, serif;
   font-size: 1.7rem;
   line-height: 2.5rem;
   font-weight: 400;
@@ -203,7 +208,7 @@ ul,
 }
 
 .article-related {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.9rem;
@@ -217,7 +222,7 @@ ul,
 }
 
 .article-references span {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -233,14 +238,14 @@ ul,
 }
 
 .article-more {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
   margin: 2.5rem 0;
 }
 
 .article-more button {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
   background-color: #1b5587;
@@ -261,13 +266,17 @@ ul,
 }
 
 .sidebar-sections li {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   background-color: #f5f5f5;
   padding: 1rem 1.4rem;
   margin-right: 0.5rem;
 }
+.sidebar-sections li:last-of-type {
+  margin-right: 0;
+}
+
 .sidebar-sections li:first-of-type {
   background-color: #3ab3e5;
   color: #fff;
@@ -283,7 +292,7 @@ ul,
 }
 
 .sidebar-link-text {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-weight: 700;
   line-height: 2.5rem;
   font-size: 2.2rem;
@@ -306,7 +315,7 @@ ul,
   right: 1.5rem;
   top: 50%;
   transform: translateY(-50%);
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 3.5rem;
   font-weight: 700;
   color: #00b3e5;
@@ -335,7 +344,7 @@ ul,
   padding: 0.5rem;
   width: 100%;
   margin-bottom: 1rem;
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
   color: #ffffff;
@@ -357,12 +366,13 @@ ul,
 /* More content section */
 
 .more-content {
-  width: 110rem;
+  width: 95%;
+  max-width: 110rem;
   margin: 0 auto;
   padding-bottom: 10rem;
 }
 .more-content h2 {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 2.7rem;
@@ -379,7 +389,7 @@ ul,
   width: 100%;
 }
 .grid-container h3 {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 2rem;
   line-height: 2.2rem;
   font-weight: 700;
@@ -398,7 +408,7 @@ ul,
 }
 
 .footer-sign-up {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 2.4rem;
   line-height: 2.7rem;
   font-weight: 700;
@@ -418,12 +428,12 @@ ul,
   border-bottom: solid 2px black;
   width: 30rem;
   background-color: #f5f5f5;
-  font-family: 'PT Serif', Georgia, serif;
+  font-family: "PT Serif", Georgia, serif;
   font-size: 1.6rem;
 }
 
 .newsletter-form button {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 1.6rem;
   color: #fff;
   font-weight: 700;
@@ -462,7 +472,7 @@ ul,
 }
 
 .cookie-button {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-weight: 700;
   font-size: 1.6rem;
   background-color: #1b5587;
@@ -490,7 +500,7 @@ ul,
 }
 
 .footer-copyright li:last-of-type {
-  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
 
@@ -507,4 +517,36 @@ ul,
 .footer-copyright li:last-of-type span {
   font-size: 4.5rem;
   margin-left: 1.5rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .header-newsletter {
+    display: none;
+  }
+  .header ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-container {
+    display: none;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar {
+    padding-top: 2rem;
+    padding-left: 0;
+    position: static;
+  }
+  .sidebar-sections li {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
 }
