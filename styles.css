@@ -539,6 +539,9 @@ ul,
     display: flex;
     flex-direction: column;
   }
+  .article h1 {
+    font-size: 3rem;
+  }
   .sidebar {
     padding-top: 2rem;
     padding-left: 0;
